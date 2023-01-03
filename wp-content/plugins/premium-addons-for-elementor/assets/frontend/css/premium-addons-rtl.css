@@ -2024,13 +2024,6 @@
     opacity: 1;
 }
 
-.premium-blog-thumb-effect-wrapper:hover .premium-blog-thumbnail-overlay a {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-}
-
 .premium-blog-clear-fix {
     clear: both;
 }
@@ -5866,9 +5859,10 @@ button.premium-modal-box-modal-close {
 }
 
 /**Hamburger Menu*/
-.premium-nav-widget-container a.premium-hamburger-toggle,
-.premium-mobile-menu-outer-container a.premium-mobile-menu-close {
+.premium-nav-widget-container .premium-hamburger-toggle,
+.premium-mobile-menu-outer-container .premium-mobile-menu-close {
     text-decoration: none;
+    cursor: pointer;
 }
 
 .premium-nav-widget-container .premium-hamburger-toggle {
@@ -8768,7 +8762,7 @@ ul.premium-person-social-list {
     animation: pa-text-gradient 8s infinite;
 }
 
-.premium-title-clipped .premium-title-header {
+.premium-title-clipped .premium-title-text {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;

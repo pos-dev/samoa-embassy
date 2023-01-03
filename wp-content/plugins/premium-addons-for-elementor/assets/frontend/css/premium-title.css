@@ -170,7 +170,7 @@
   -webkit-animation: pa-text-gradient 8s infinite;
           animation: pa-text-gradient 8s infinite; }
 
-.premium-title-clipped .premium-title-header {
+.premium-title-clipped .premium-title-text {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text; }

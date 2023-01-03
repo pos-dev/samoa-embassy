@@ -245,8 +245,12 @@
          */
         function fullWidthContent($item) {
 
-            var $parentSec = $scope.closest('.elementor-top-section, .e-con'),
-                width = $parentSec.outerWidth(),
+            var isContainer = elementorFrontend.config.experimentalFeatures.container,
+                $parentSec = $scope.parents('.e-con').last();
+
+            $parentSec = !isContainer || $parentSec.length < 1 ? $scope.closest('.elementor-top-section') : $parentSec;
+
+            var width = $parentSec.outerWidth(),
                 sectionLeft = $parentSec.offset().left - $item.offset().left;
 
             $($item).removeClass('premium-mega-item-static').find('.premium-mega-content-container, > .premium-sub-menu').css({
@@ -296,8 +300,12 @@
 
             if (!$menu.length) return;
 
-            var $parentSec = $($scope).closest('.elementor-top-section, .e-con'),
-                width = $($parentSec).outerWidth(),
+            var isContainer = elementorFrontend.config.experimentalFeatures.container,
+                $parentSec = $scope.parents('.e-con').last();
+
+            $parentSec = !isContainer || $parentSec.length < 1 ? $scope.closest('.elementor-top-section') : $parentSec;
+
+            var width = $($parentSec).outerWidth(),
                 widgetTop = $scope.offset().top,
                 parentBottom = $($parentSec).offset().top + $($parentSec).outerHeight(),
                 stretchTop = parentBottom - widgetTop,
@@ -476,7 +484,7 @@
 
             var badgeHtml = getBadgeHtml(badge),
                 targets = $scope.find('.premium-nav-menu-container ' + badge.selector + ':not(.has-pa-badge)')
-            mobileTargets = $scope.find('.premium-mobile-menu-container ' + badge.selector + ':not(.has-pa-badge)'),
+                mobileTargets = $scope.find('.premium-mobile-menu-container ' + badge.selector + ':not(.has-pa-badge)'),
                 hoverEffectClass = '' !== settings.hoverEffect ? 'premium-badge-' + settings.hoverEffect : '';
 
             for (var index = 0; index < targetsIndex.length; index++) {

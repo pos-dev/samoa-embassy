@@ -347,4 +347,18 @@
 
     });
 
+    var onNavigatorInit = function () {
+
+        elementor.navigator.indicators.paDisConditions = {
+            icon: 'preview-medium',
+            settingKeys: ['pa_display_conditions_switcher'],
+            title: wp.i18n.__('Display Conditions', 'premium-addons-for-elementor'),
+            section: 'section_pa_display_conditions'
+        };
+    }
+
+    elementor.on('navigator:init', onNavigatorInit);
+
+
+
 })(jQuery);
