@@ -3,8 +3,8 @@ Contributors: patrickposner
 Tags: HTML, static website generator, static site, secure, fast
 Requires at least: 5.4
 Tested up to: 6.1
-Requires PHP: 7.2.5
-Stable tag: 2.2.1.1
+Requires PHP: 7.4
+Stable tag: 2.2.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -178,6 +178,39 @@ Simply Static creates a static copy of your WordPress site that is intended to b
 3. Diagnostics
 
 == Changelog ==
+
+= 2.2.6 =
+
+* fixed typo in CookieYes integration class
+
+= 2.2.5 =
+
+* integration for CookieYes GPDR plugin
+* integration for Brizy Builder (image extraction)
+* fixed 301 redirections with Redirection plugin
+* fallback solution for existing pages not being crawled due to URL parameter
+
+= 2.2.4 =
+
+* reverted blackslash extraction producing invalid markup in CSS + JS
+* remember configuration for destination (while switching options)
+* unique nonce for Simply Static Ajax request to fix conflict with MiniOrange SSL On plugin
+* removed simply_static_page query parameters from URL on static site
+* automatically remove quotation marks on save additional URL/File
+
+= 2.2.3 =
+
+* min PHP version increased to 7.4
+* ability to include files without filetype (_header)
+* Elementor support for bundled JS files
+* improved URL extraction in JS and HTML files
+
+= 2.2.2 =
+
+* XML Sitemap auto-include for Yoast
+* XML Sitemap auto-include for RankMath
+* XML Sitemap auto-include for AllInOneSEO
+* XML Sitemap auto-include for SEOPress
 
 = 2.2.1.1 =
 
