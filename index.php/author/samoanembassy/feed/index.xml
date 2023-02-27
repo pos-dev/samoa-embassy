@@ -9,10 +9,10 @@
 
 <channel>
 	<title>samoanembassy &#8211; Samoa Embassy</title>
-	<atom:link href="http://localhost/SE_Github_Site/index.php/author/samoanembassy/feed/?simply_static_page=20098" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/SE_Github_Site/index.php/author/samoanembassy/feed/?simply_static_page=25174" rel="self" type="application/rss+xml" />
 	<link>https://pos-dev.github.io/samoa-embassy</link>
 	<description>Beijing</description>
-	<lastBuildDate>Wed, 22 Feb 2023 06:16:16 +0000</lastBuildDate>
+	<lastBuildDate>Mon, 27 Feb 2023 06:29:25 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -217,7 +217,7 @@
 				<category><![CDATA[Samoa Embassy Beijing]]></category>
 		<guid isPermaLink="false">https://pos-dev.github.io/samoa-embassy/?p=2110</guid>
 
-					<description><![CDATA[Foreign diplomats say China&#8217;s COVID-19 policy adjustment &#8216;timely, necessary&#8217; Diplomats say China&#8217;s COVID-19 policy adjustment &#8216;timely, necessary&#8217; &#8211; CGTN]]></description>
+					<description><![CDATA[Diplomats say China&#8217;s COVID-19 policy adjustment &#8216;timely, necessary&#8217; &#8211; CGTN Foreign diplomats say China&#8217;s COVID-19 policy adjustment &#8216;timely, necessary&#8217;]]></description>
 										<content:encoded><![CDATA[		<div data-elementor-type="wp-post" data-elementor-id="2110" class="elementor elementor-2110">
 									<section class="elementor-section elementor-top-section elementor-element elementor-element-5333c285 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5333c285" data-element_type="section">
 						<div class="elementor-container elementor-column-gap-default">
@@ -225,9 +225,7 @@
 			<div class="elementor-widget-wrap elementor-element-populated">
 								<div class="elementor-element elementor-element-3fe93460 elementor-widget elementor-widget-text-editor" data-id="3fe93460" data-element_type="widget" data-widget_type="text-editor.default">
 				<div class="elementor-widget-container">
-							<span style="color: #000000;">Foreign diplomats say China&#8217;s COVID-19 policy adjustment &#8216;timely, necessary&#8217;</span>
-
-<a href="https://news.cgtn.com/news/2023-01-08/Diplomats-say-China-s-COVID-19-policy-adjustment-timely-necessary--1gpVVOqR06k/index.html" target="_blank" rel="noopener">Diplomats say China&#8217;s COVID-19 policy adjustment &#8216;timely, necessary&#8217; &#8211; CGTN</a>						</div>
+							<p><a href="https://news.cgtn.com/news/2023-01-08/Diplomats-say-China-s-COVID-19-policy-adjustment-timely-necessary--1gpVVOqR06k/index.html" target="_blank" rel="noopener">Diplomats say China&#8217;s COVID-19 policy adjustment &#8216;timely, necessary&#8217; &#8211; CGTN</a></p><p style="color: #000000;">Foreign diplomats say China&#8217;s COVID-19 policy adjustment &#8216;timely, necessary&#8217;</p>						</div>
 				</div>
 					</div>
 		</div>
