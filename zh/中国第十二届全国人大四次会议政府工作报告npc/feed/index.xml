@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	
+	>
+<channel>
+	<title>
+	《中国第十二届全国人大四次会议政府工作报告(NPC)》的评论	</title>
+	<atom:link href="http://localhost/SE_Github_Site/zh/%E4%B8%AD%E5%9B%BD%E7%AC%AC%E5%8D%81%E4%BA%8C%E5%B1%8A%E5%85%A8%E5%9B%BD%E4%BA%BA%E5%A4%A7%E5%9B%9B%E6%AC%A1%E4%BC%9A%E8%AE%AE%E6%94%BF%E5%BA%9C%E5%B7%A5%E4%BD%9C%E6%8A%A5%E5%91%8Anpc/feed/?simply_static_page=31335" rel="self" type="application/rss+xml" />
+	<link>https://pos-dev.github.io/samoa-embassy/zh/%e4%b8%ad%e5%9b%bd%e7%ac%ac%e5%8d%81%e4%ba%8c%e5%b1%8a%e5%85%a8%e5%9b%bd%e4%ba%ba%e5%a4%a7%e5%9b%9b%e6%ac%a1%e4%bc%9a%e8%ae%ae%e6%94%bf%e5%ba%9c%e5%b7%a5%e4%bd%9c%e6%8a%a5%e5%91%8anpc/</link>
+	<description>Beijing</description>
+	<lastBuildDate>Thu, 09 Mar 2023 07:20:13 +0000</lastBuildDate>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.1.1</generator>
+</channel>
+</rss>

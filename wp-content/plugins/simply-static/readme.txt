@@ -4,7 +4,7 @@ Tags: HTML, static website generator, static site, secure, fast
 Requires at least: 5.4
 Tested up to: 6.1
 Requires PHP: 7.4
-Stable tag: 2.2.6
+Stable tag: 2.2.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,27 @@ Develop your site locally and only push the static exported website on a server.
 * [lando](https://docs.lando.dev/)
 
 I highly recommend not to use another tool for local development if you are not a programmer as in most cases manual package installation is required.
+
+== Simply CDN ==
+
+Simply CDN is a hosting platform for static sites generated with Simply Static.
+
+Create an account, copy & paste the Security Token into Simply Static, and immediately push your static website live.
+
+[youtube https://youtu.be/7ejlvDxXMXM]
+
+Simply CDN also ships with a bunch of features to simplify the process of working with your static website:
+
+* handles caching and security
+* temporary domains for setup and testing
+* forward form submissions to your e-mail address
+* handles 404 pages with a custom template
+* automatically export changes in the background
+
+It's built on BunnyCDN and combines affordable static site hosting with everything learned while developing Simply Static.
+
+Start your 7-day free trial [here](https://simplycdn.io/#pricing).
+
 
 == Simply Static Pro ==
 
@@ -178,6 +199,14 @@ Simply Static creates a static copy of your WordPress site that is intended to b
 3. Diagnostics
 
 == Changelog ==
+
+= 2.2.7 =
+
+* SimplyCDN integration
+* added hooks for multisite integration
+* Elementor Pro support (Lottie files and videos)
+* fixed log time with correct timezone
+* removed WP-Cron option, now handled automatically
 
 = 2.2.6 =
 

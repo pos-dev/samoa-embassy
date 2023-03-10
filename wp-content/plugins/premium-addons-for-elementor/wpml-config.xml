@@ -57,7 +57,7 @@
             </fields>
         </widget>
 
-        <widget name="remium-addon-dual-header">
+        <widget name="premium-addon-dual-header">
             <fields>
                 <field name="Dual Heading: First Heading" editor_type="LINE">premium_dual_header_first_header_text</field>
                 <field name="Dual Heading: Second Heading" editor_type="LINE">premium_dual_header_second_header_text</field>

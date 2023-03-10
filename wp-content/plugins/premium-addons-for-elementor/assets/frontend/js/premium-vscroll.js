@@ -84,7 +84,7 @@
 
             $window.on("resize.premiumVerticalScroll orientationchange.premiumVerticalScroll", self.debounce(50, self.onResize));
 
-            $window.on("load", function () {
+            $(document).ready(function () {
 
                 self.setSectionsData();
 
@@ -358,8 +358,8 @@
             touchEndY = touchEvents.y;
 
             var $target = $(e.target),
-                sectionSelector = checkTemps ? ".premium-vscroll-temp" : ".elementor-top-section",
-                $section = $target.closest(sectionSelector),
+                sectionSelector = checkTemps ? ".premium-vscroll-temp" : ".elementor-top-section, .e-con",
+                $section = $target.parents(sectionSelector).length > 1 ? $target.parents(sectionSelector).last() : $target.closest(sectionSelector),
                 sectionId = $section.attr("id"),
                 newSectionId = false,
                 prevSectionId = false,
@@ -741,8 +741,8 @@
         //Used to unset position CSS property for vertical scroll sections becuase it causes position issue for the content below the widget.
         function parallaxLastSection() {
             var $target = $(event.target),
-                sectionSelector = checkTemps ? ".premium-vscroll-temp" : ".elementor-top-section",
-                $section = $target.closest(sectionSelector),
+                sectionSelector = checkTemps ? ".premium-vscroll-temp" : ".elementor-top-section, .e-con",
+                $section = $target.parents(sectionSelector).length > 1 ? $target.parents(sectionSelector).last() : $target.closest(sectionSelector),
                 sectionId = $section.attr("id"),
                 $lastselector = checkTemps ? $instance : $("#" + sectionId),
                 animationType = $instance.find('.premium-vscroll-sections-wrap').data('animation');
@@ -767,8 +767,8 @@
             }
 
             var $target = $(event.target),
-                sectionSelector = checkTemps ? ".premium-vscroll-temp" : ".elementor-top-section",
-                $section = $target.closest(sectionSelector),
+                sectionSelector = checkTemps ? ".premium-vscroll-temp" : ".elementor-top-section, .e-con",
+                $section = $target.parents(sectionSelector).length > 1 ? $target.parents(sectionSelector).last() : $target.closest(sectionSelector),
                 sectionId = $section.attr("id"),
                 $vTarget = self.visible($instance, true, false),
                 newSectionId = false,
